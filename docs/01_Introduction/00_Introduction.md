@@ -1,7 +1,6 @@
-
 # UDOO IoT
 
-**UDOO IoT** 
+**UDOO IoT** is the official IoT Cloud for manage the UDOO boards
 
 ## Community
 * Official web site [www.udoo.org](https://www.udoo.org)
