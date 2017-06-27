@@ -9,7 +9,6 @@ To register the Client to the IoT Server open the WebConf(guide [here](https://w
 Next step, is connecting the board to the net and going to the IoT System Configuration page.
 For going there, click on Configuration and select **IoT Configuration** item, as shown in the figure.
 
-</br>
 
 <img src="../img/05_webconf_menu.png" alt="webconf_menu" class="img-responsive" >
 
@@ -28,19 +27,11 @@ A new tab will be opened in your browser, here you can register the board with y
 
 Insert the credentials of your UDOO IoT account and click on Sign In.
 
-</br>
-
 <img src="../img/08_board_registration_signin.png" alt="board_registration_signin" class="img-responsive" >
-
-</br>
 
 Select the company you want to associate with
 
-</br>
-
 <img src="../img/09_board_registration_company.png" alt="board_registration_company" class="img-responsive" >
-
-</br>
 
 Allow the authorization for permitting the connection between IoT Cloud and your board
 
@@ -48,15 +39,11 @@ Allow the authorization for permitting the connection between IoT Cloud and your
 
 <img src="../img/10_board_registration_auth.png" alt="board_registration_auth" class="img-responsive" >
 
-</br>
-
 Copy the grant code using the copy botton.
 
 </br>
 
 <img src="../img/11_board_registration_grantcode.png" alt="board_registration_grantcode" class="img-responsive" >
-
-</br>
 
 Now you can came back to the board WebConf Iot Configuration Panel tab to paste the grant code in the form appeared.
 
