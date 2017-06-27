@@ -5,9 +5,9 @@ Starting from **UDOObuntu version 2.1.4** the `udoo-iot-cloud-client` package co
 
 ### Prepare the IoT Client with no OS installed
 
-If you haven't a microSD with UDOObuntu yet, go to the [Prepare the IoT Client with no OS installed](!Client_Preparation/Prepare_the_IoT_Client_with_no_OS_installed) page to and flash UDOObuntu on a microSD.
+If you haven't a microSD with UDOObuntu yet, go to the [Prepare the IoT Client with no OS installed](!Prepare_the_IoT_Client_with_no_OS_installed) page to and flash UDOObuntu on a microSD.
 
 ### Prepare the IoT Client with OS already installed
 
 If you already have a UDOObuntu version previous of the **2.1.4** on your UDOO board you need to update it with new packages and install the IoT client.  
-Go to the [Prepare the IoT Client with OS already installed](!Client_Preparation/Prepare_the_IoT_Client_with_OS_already_installed) section to know how to configure a previous version of UDOObuntu.
+Go to the [Prepare the IoT Client with OS already installed](!Prepare_the_IoT_Client_with_OS_already_installed) section to know how to configure a previous version of UDOObuntu.
