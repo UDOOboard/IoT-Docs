@@ -2,7 +2,7 @@ You need to register a new account to use the UDOO IoT Cloud. You need to regist
 
 Go to this page:
 
-[https://udoo.cloud/signup](https://udoo.cloud/)
+[https://udoo.cloud/](https://udoo.cloud/)
 
 Here you’ll receive the credential request for logging in
 
