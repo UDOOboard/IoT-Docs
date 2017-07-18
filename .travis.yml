@@ -1,7 +1,7 @@
 script: bash ./deploy.sh
 language: php
 php:
-- 5.5
+- 7.0
 env:
   global:
   - GH_REF: github.com/UDOOboard/IoT-Docs.git
