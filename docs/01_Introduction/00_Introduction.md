@@ -1,6 +1,18 @@
 # UDOO IoT
 
-**UDOO IoT** is the official IoT Cloud for manage the UDOO boards
+**UDOO IOT CLOUD** is a platform that allows to connect your UDOO BOARDS and create the perfect ready to use IoT system.
+
+UDOO IOT gives you everything you need to connect your UDOO boards together and to the web.  
+A cloud platform for all the devices: **DUAL/QUAD**, **NEO**, **X86**, **BLU**, all the accessories and **BRICKS**: altogether in a web based platform giving you the chance to organize, handle, monitor and build the perfect IoT system.
+
+The Cloud platform allows to organize your UDOO products featuring several components:
+
+* The **Dashboard** contains a recap of all your system. A map on the top left shows the devices location while the widgets allows to add your favourite sensors right where you can directly see it without going deep inside the system.
+
+* The **IoT System** gives a list of all the gateways, devices and sensors allowing to check the status, diagrams and adding more sensors to the devices connected.
+
+* The **Triggers** allows to set up a conditional statement allowing to easily automate tasks in the IoT system. For instance if a sensor reaches a specific value in a specific period of time, the system sends and alert or an email or just activate an actuator or a motor.
+
 
 ## Community
 * Official web site [www.udoo.org](https://www.udoo.org)
