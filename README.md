@@ -1,5 +1,7 @@
 # UDOO IoT Documentation
 
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/UDOOboard/X86-Docs/LICENSE)
+
 Travis build status: [![Build Status](https://travis-ci.org/UDOOboard/IoT-Docs.svg?branch=master)](https://travis-ci.org/UDOOboard/IoT-Docs)
 
 ## Build the documentation locally
