@@ -16,7 +16,7 @@ For going there, click on Configuration and select **IoT Configuration** item, a
 </br>
 
 The board will recognize as **Unregistered**.
-For register the board, click the link **here** in the yellow alert on top of the page.
+A login form is shown to allow you insert the UDOO IoT Account credential.
 
 </br>
 
@@ -24,38 +24,10 @@ For register the board, click the link **here** in the yellow alert on top of th
 
 </br>
 
-A new tab will be opened in your browser, here you can register the board with your credentials and use it as a gateway.
+Once you click the **Sign in** button an automatic registration procedure will start.
+The UDOO device will be registered into the UDOO IoT Cloud and will keep the auth token to connect to the Cloud and communicate with it.
 
-Insert the credentials of your UDOO IoT account and click on Sign In.
-
-<img src="../img/08_board_registration_signin.png" alt="board_registration_signin" class="img-responsive" >
-
-Select the company you want to associate with
-
-<img src="../img/09_board_registration_company.png" alt="board_registration_company" class="img-responsive" >
-
-Allow the authorization for permitting the connection between IoT Cloud and your board
-
-</br>
-
-<img src="../img/10_board_registration_auth.png" alt="board_registration_auth" class="img-responsive" >
-
-Copy the grant code using the copy botton.
-
-</br>
-
-<img src="../img/11_board_registration_grantcode.png" alt="board_registration_grantcode" class="img-responsive" >
-
-Now you can came back to the board WebConf Iot Configuration Panel tab to paste the grant code in the form appeared.
-
-</br>
-
-<img src="../img/12_board_registration_pastcode.png" alt="board_registration_pastcode" class="img-responsive" >
-
-</br>
-
-And, in the end, **Save**.  
-Once the registration is finished, the board will automatically connect to the IoT Server, and, when ìt’s ready, you’ll see a confirmation alert.  
+Once the registration is finished, the board will automatically connect to the UDOO IoT Server, and, when ìt’s ready, you’ll see the **Connected** string in the box.  
 
 </br>
 
@@ -63,4 +35,4 @@ Once the registration is finished, the board will automatically connect to the I
 
 </br>
 
-Click on __**here**__ for going directly to the Dashboard of the UDOO IoT Cloud Panel.
+Now you can go directly go to the [UDOO IoT Cloud](https://udoo.cloud) page to see the device connected.
