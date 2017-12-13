@@ -2,26 +2,26 @@ Following the next steps to create and work with a Virtual Sensor.
 
 ### On the client
 
-Create a folder in `/sensors/` with the name of the virtual sensor yo would create.  
+Create a folder in `/sensors/virtual/` with the name of the virtual sensor yo would create.  
 You should use the same name to configure in the next step the IoT cloud.
 
 ```bash
-mkdir /sensors/__NAME_OF_THE_SENSOR__/
-touch /sensors/__NAME_OF_THE_SENSOR__/data
+mkdir /sensors/virtual/__NAME_OF_THE_SENSOR__/
+touch /sensors/virtual/__NAME_OF_THE_SENSOR__/data
 ```
 
 In this example we'll call the the Virtual Sensor `vstest`:
 
 ```bash
 
-mkdir /sensors/vstest/
-touch /sensors/vstest/data
+mkdir /sensors/virtual/vstest/
+touch /sensors/virtual/vstest/data
 ```
 
 The `data` file must be accessible both by the application that changes values and by the UDOO IoT Client so in this example we change the permissions in this way:
 
 ```bash
-chmod 666 /sensors/vstest/data
+chmod 666 /sensors/virtual/vstest/data
 ```
 
 ### On the server
