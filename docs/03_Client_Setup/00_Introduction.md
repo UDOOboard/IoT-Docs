@@ -17,7 +17,8 @@ Go to the [Prepare the IoT Client with OS already installed](!Prepare_the_IoT_Cl
 
 ### UDOO X86 board
 
-You need to run a Linux distro to install the UDOO IoT Client. The system is tested on the Ubuntu 17.10 (Artful). 
+You need to run a Linux distro to install the UDOO IoT Client.  
+For now, the packages are compatible with **Ubuntu 17.10 (Artful Aardvark)** and **Ubuntu 17.04 (Zesty Zapus)**.
 
 
 ## Install the UDOO IoT Client service

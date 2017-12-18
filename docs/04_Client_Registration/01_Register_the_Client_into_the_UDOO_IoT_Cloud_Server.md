@@ -1,5 +1,11 @@
-Once the UDOO IoT Cloud Client service is installed on your UDOO you can register the board as a gateway in the UDOO Cloud.  
-To register the Client to the IoT Server open the WebConf(guide [here](https://www.udoo.org/docs-neo/Basic_Setup/Web_Control_Panel.html)) on the NEO with desktop, mouse and keyboard or VNC or USB Direct Connection.
+Once the **UDOO IoT Cloud Client** service is installed on your UDOO board you can register the board as a gateway in the UDOO Cloud.  
+
+To register the UDOO board to the IoT Server open the **UDOO WebConf**:
+* on **UDOO NEO** follow this [guide](https://www.udoo.org/docs-neo/Basic_Setup/Web_Control_Panel.html) to open  the WebConf using the USB Direct Connection, the IP address, VNC or using a monitor, keyboard and mouse as lightweight desktop.
+* on **UDOO QUAD/DUAL** follow this [guide](https://www.udoo.org/docs/Basic_Setup/Web_Control_Panel.html) to open  the WebConf using the USB Direct Connection, the IP address, VNC or using a monitor, keyboard and mouse as lightweight desktop.
+* on **UDOO X86** open the UDOO WebConf app installed using the App drawer.
+
+For this guide we'll see how to register a **UDOO NEO** but the same procedure is identical for the other UDOO boards.
 
 </br>
 
