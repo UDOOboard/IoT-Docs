@@ -17,7 +17,7 @@ Since the packages are available into the UDOO binary distributions repository, 
 sudo apt update
 sudo apt install -y udoo-iot-cloud-client
 ```
-After the system is ready you can [register the Client into the UDOO IoT Cloud Server](!Client_Setup/Register_the_Client_into_the_UDOO_IoT_Cloud_Server).  
+After the system is ready you can [register the Client into the UDOO IoT Cloud Server](!Client_Registration/Register_the_Client_into_the_UDOO_IoT_Cloud_Server).  
 
   </div>
   <div role="tabpanel" class="tab-pane" id="x86-example">
@@ -64,7 +64,7 @@ sudo apt update
 sudo apt install -y udoo-iot-cloud-client udoo-web-conf
 ```
 
-The packages are now installed, you can go to the next section to [Register_the_Client_into_the_UDOO_IoT_Cloud_Server](!Client_Setup/Register_the_Client_into_the_UDOO_IoT_Cloud_Server)
+The packages are now installed, you can go to the next section to [Register_the_Client_into_the_UDOO_IoT_Cloud_Server](!Client_Registration/Register_the_Client_into_the_UDOO_IoT_Cloud_Server)
 
   </div>
 </div>
