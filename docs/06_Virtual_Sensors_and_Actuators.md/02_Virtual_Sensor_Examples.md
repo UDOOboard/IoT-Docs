@@ -1,40 +1,29 @@
-In this section you can find examples of how to create an application that change the `data` file values.
+In this section you can find examples of how to create an application that change the `data` file values of a Virtual Sensor.
 
 Remember that the application must have the permission to write on the `data` file.
 
 ## Python
 
-```python
-from time import sleep # to add delays
+This python write on the `data` file of the `vstest` Virtual Sensor a string of the data every 5 seconds
 
-import string
+```python
 import time
 import os
-import sys
-import math
 
 # virtualSensorName = '__NAME_OF_THE_SENSOR__'
 virtualSensorName = 'vstest'
 
-status = 0
-
 #This method change the value in data file
 def printVS( data ):
-	global status
-	data = str(data).strip()		
 	print data
 	dataIot = open(directory + file, "w")
-	dataIot.write(str(status) + ',' + data)
+	dataIot.write(data)
 	dataIot.flush()
 	dataIot.close()
-	if status == 0 :
-		status = 1
-	elif status == 1:
-		status = 0
 
 # Open the output data file
 file = 'data'
-directory = '/sensors/'+ virtualSensorName +'/'
+directory = '/sensors/virtual/'+ virtualSensorName +'/'
 print 'Checking directory exists ...'
 if not os.path.exists(directory):
 	print 'Directory does not exists... creating... '
@@ -50,6 +39,7 @@ else:
 
 while True: # Run forever
 		#MAKE CALCULATIONS
-		printVS(presence)
+		printVS(time.strftime("%c"))
+		time.sleep(5)
 
 ```

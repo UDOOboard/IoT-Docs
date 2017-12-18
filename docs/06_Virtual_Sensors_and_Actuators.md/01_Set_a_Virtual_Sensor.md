@@ -1,32 +1,8 @@
 Following the next steps to create and work with a Virtual Sensor.
 
-### On the client
+### Setup the Virtual Sensor on the UDOO IoT Cloud Server
 
-Create a folder in `/sensors/virtual/` with the name of the virtual sensor yo would create.  
-You should use the same name to configure in the next step the IoT cloud.
-
-```bash
-mkdir /sensors/virtual/__NAME_OF_THE_SENSOR__/
-touch /sensors/virtual/__NAME_OF_THE_SENSOR__/data
-```
-
-In this example we'll call the the Virtual Sensor `vstest`:
-
-```bash
-
-mkdir /sensors/virtual/vstest/
-touch /sensors/virtual/vstest/data
-```
-
-The `data` file must be accessible both by the application that changes values and by the UDOO IoT Client so in this example we change the permissions in this way:
-
-```bash
-chmod 666 /sensors/virtual/vstest/data
-```
-
-### On the server
-
-Select the gateway and choose the UDOO device.
+Select the gateway and choose the right UDOO device.
 
 <img src="../img/vsensor_device.PNG" alt="vsensor_device" class="img-responsive" >
 
@@ -54,4 +30,37 @@ Restart the UDOO IoT Client Service using the button **Restart Service** in the 
 
 <img src="../img/vsensor_restart_service.PNG" alt="vsensor_restart_service" class="img-responsive" >
 
-Now the Virtual Service is up and running listening to the changes in the `data` file.
+Now the Virtual Service is up and running listening to the changes in the `/sensors/virtual/__NAME_OF_THE_SENSOR__/data` file.
+
+### Interact with the file in the UDOO IoT Client
+
+Once the Virtual Sensor is set up, a folder and a file are automatically created in `/sensors/virtual/` with the name of the virtual sensor created
+
+```bash
+/sensors/virtual/__NAME_OF_THE_SENSOR__/
+/sensors/virtual/__NAME_OF_THE_SENSOR__/data
+```
+
+In this example we'll call the the Virtual Sensor `vstest` so these file created are:
+
+```bash
+/sensors/virtual/vstest/
+/sensors/virtual/vstest/data
+```
+
+The `data` file should be already accessible both by the application that will changes values and by the UDOO IoT Client. If the file is not accessible change the permissions in this way:
+
+```bash
+chmod 666 /sensors/virtual/vstest/data
+```
+
+### Input File
+
+The format of the `data` file must be:
+
+    __VALUE__
+
+Every time the `__VALUE__` changes the UDOO IoT Cloud Client is notified and upload the data in the UDOO Cloud Server.
+
+Now you can use an application or script wrote in any language (c, java, python...) to open the `data` file and change the value wrote inside to have the same data uploaded to the UDOO IoT Cloud Server.  
+In the next page you can find some example of how to write a software that use the Virtual Sensor. 

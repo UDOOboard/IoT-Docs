@@ -41,4 +41,4 @@ Once the registration is finished, the board will automatically connect to the U
 
 </br>
 
-Now you can go directly go to the [UDOO IoT Cloud](https://udoo.cloud) page to see the device connected.
+Now you can go directly go to the [UDOO IoT Cloud Server](https://udoo.cloud) page to see the device connected.
