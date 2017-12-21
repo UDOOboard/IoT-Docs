@@ -13,16 +13,19 @@ For this guide we'll see how to register a **UDOO NEO** but the same procedure i
 
 </br>
 
-Next step, is connecting the board to the net and going to the IoT System Configuration page.
-For going there, click on Configuration and select **IoT Configuration** item, as shown in the figure.
+Next step, is connecting the board to the net. You can use an Ethernet cable or use the **Connect to Wi-Fi** page of the UDOO WebConf if it can be useful.
+
+Once the board as an Internet connection, go to the **UDOO IoT Cloud** page.
 
 
 <img src="../img/05_webconf_menu.png" alt="webconf_menu" class="img-responsive" >
 
 </br>
 
-The board will recognize as **Unregistered**.
-A login form is shown to allow you insert the UDOO IoT Account credential.
+If you haven't the **UDOO IoT Cloud Client service** installed you can install directly from this page using the proper button.   
+
+If the client is installed, the board will recognize as **Unregistered**.
+A login form is shown to allow you insert the **UDOO IoT Account** credential.
 
 </br>
 
@@ -33,7 +36,7 @@ A login form is shown to allow you insert the UDOO IoT Account credential.
 Once you click the **Sign in** button an automatic registration procedure will start.
 The UDOO device will be registered into the UDOO IoT Cloud and will keep the auth token to connect to the Cloud and communicate with it.
 
-Once the registration is finished, the board will automatically connect to the UDOO IoT Server, and, when ìt’s ready, you’ll see the **Connected** string in the box.  
+Once the registration is finished, the board will automatically connect to the UDOO IoT Server, and, when ìt’s ready, you’ll see the **Connected** string in the first box.  
 
 </br>
 
@@ -41,4 +44,4 @@ Once the registration is finished, the board will automatically connect to the U
 
 </br>
 
-Now you can go directly go to the [UDOO IoT Cloud Server](https://udoo.cloud) page to see the device connected.
+Now, you can directly go to the [UDOO IoT Cloud Server](https://udoo.cloud) page to see the device connected.
