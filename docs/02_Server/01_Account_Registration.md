@@ -1,4 +1,4 @@
-You need to register a new account to use the UDOO IoT Cloud. You need to register your account only the first time.
+You need to register a new **UDOO IoT Account** to use the UDOO IoT Cloud. Obviously you need to register your account only the first time.
 
 Go to this page:
 
