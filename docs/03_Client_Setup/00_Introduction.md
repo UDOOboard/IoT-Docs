@@ -6,22 +6,40 @@ This package provides the service and all what you need to make your UDOO board 
 
 Check the right section accordingly with the boad you want to register in the UDOO IoT Cloud.
 
-### UDOO ARM/based board (UDOO NEO & UDOO QUAD/DUAL)
+<div>
+ <ul id="intro-examples" class="nav nav-tabs" role="tablist">
+  <li role="presentation" class="active"><a href="#arm-example" aria-controls="arm" role="tab" data-toggle="tab"><b>UDOO ARM/based board (UDOO NEO & UDOO QUAD/DUAL)</b></a></li>
+  <li role="presentation"><a href="#x86-example" aria-controls="x86" role="tab" data-toggle="tab"><b>UDOO X86 board</b></a></li>
+ </ul>
 
-First of all you need a microSD with the UDOObuntu OS installed.  
+ <div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="arm-example">
 
-If you haven't a microSD with UDOObuntu yet, go to the [Prepare the IoT Client with no OS installed](!Prepare_the_IoT_Client_with_no_OS_installed) page to download and flash the last version of UDOObuntu on a microSD.
+First of all you need a microSD with the **UDOObuntu OS** installed, version **2.2.0** and above (a version of UDOObuntu previous of the 2.2.0 could not work with the UDOO IoT Cloud system even if updated/upgraded).  
 
-If you already have a UDOObuntu version previous of the **2.2.0** on your UDOO board you need to update/upgrade it with new packages and install the IoT client.  
-Go to the [Prepare the IoT Client with OS already installed](!Prepare_the_IoT_Client_with_OS_already_installed) section to know how to configure a previous version of UDOObuntu.
+If you haven't a microSD with UDOObuntu yet, go to one of these pages:
+* **UDOO NEO**: [Get Started with UDOO NEO](https://www.udoo.org/get-started-neo/)
+* **UDOO QUAD/DUAL**: [Get Started with UDOO QUAD/DUAL](https://www.udoo.org/get-started-quaddual/)
 
-### UDOO X86 board
+to know how to download and flash the last version of UDOObuntu (at least **2.2.0**) on a microSD.
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="x86-example">
 
 You need to run a Linux distro to install the UDOO IoT Client.  
 For now, the packages are compatible with **Ubuntu 17.10 (Artful Aardvark)** and **Ubuntu 17.04 (Zesty Zapus)**.
+If you haven't an OS installed on one of the drive supported by the UDOO X86 go to the [Get Started with UDOO X86](https://www.udoo.org/get-started-x86/) page and install an Ubuntu distro supported.
 
+  </div>
+ </div>
+<script>
+$('#intro-examples a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>
 
 ## Install the UDOO IoT Client service
 
-Install the UDOO IoT Client service is very easy.  
+Once you have a proper OS in your UDOO board you need to install the UDOO IoT Client service. Install it is service is very easy.  
 Go to the [Install the UDOO Iot Client service](!Install_the_UDOO_Iot_Client_service) section to see how to do that in your UDOO NEO, QUAD/DUAL or X86 board.

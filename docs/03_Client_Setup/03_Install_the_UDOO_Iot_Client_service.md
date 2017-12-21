@@ -17,6 +17,9 @@ Since the packages are available into the UDOO binary distributions repository, 
 sudo apt update
 sudo apt install -y udoo-iot-cloud-client
 ```
+
+All the dependencies will be installed with the client.  
+
 After the system is ready you can [register the Client into the UDOO IoT Cloud Server](!Client_Registration/Register_the_Client_into_the_UDOO_IoT_Cloud_Server).  
 
   </div>
@@ -34,9 +37,9 @@ Install `curl` if you don't have it done already
 sudo apt install -y curl
 ```
 
-<span class="label label-warning">Heads up!</span> You need to have installed **Nodejs 6.x** in your distro to run the UDOO IoT Cloud Client. Nodejs 6.x is preinstalled in **Ubuntu 17.10 (Artful Aardvark)** but you need to install it in the other older distribution.
+<span class="label label-warning">Heads up!</span> You need to have installed **Nodejs 6.x** in your distro to run the UDOO IoT Cloud Client. Nodejs 6.x is preinstalled in **Ubuntu 17.10 (Artful Aardvark)** but you need to install it in the other older distribution as **Ubuntu 17.04**.
 
-#### Ubuntu 17.04 (Artful Aardvark)
+#### Ubuntu 17.04 (Zesty Zapus)
 
 To install the **UDOO IoT Cloud Client** in **Ubuntu 17.04** you need to install **Nodejs 6.x** with the following commands or check the [official node documentation](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions) to know how to install it:
 
