@@ -1,4 +1,4 @@
-The IoT System section shows an overview of the IoT system status.
+The Gateways section shows an overview of the IoT system status.
 
 The screen gives, by default, the current status of all the gateways, clicking on the `+` icon is possible to see the devices connected at every gateway and its sensors, as shown in the figure.
 
