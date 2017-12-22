@@ -31,8 +31,6 @@ Here you can find some info about the [Z-Wave protocol](https://en.wikipedia.org
 
 Clicking on the 3-dot menu and then on `Delete Gateway` you proceed to the deletion, and so you have to register again the board with your IoT Account
 
-<img src="../img/39_iot_gateway_del.png" alt="iot_gateway_del" class="img-responsive" >
-
 To confirm the deletion, you must enter the gateway name in the confirmation form
 
 <img src="../img/40_iot_gateway_del2.png" alt="iot_gateway_del2" class="img-responsive" ></br></br>
