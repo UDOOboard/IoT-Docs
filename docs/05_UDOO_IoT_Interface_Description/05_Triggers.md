@@ -1,14 +1,16 @@
-From this page you can add logical **Triggers** involving sensors and actuators registered in the Cloud. In the top of the page you can find the Triggers already created.  
+From this page you can add logical **Triggers** involving sensors and actuators registered in the Cloud.
 
-You can use the IFTTT-logic (*If This Then That*) to create the triggers you need in the system.
+You can use the IFTTT-logic (*If This Then That*) conditions to create the triggers you need in the system. This is a very useful tool to create logic actions into your Cloud
+
+In the top of the page you can find the Triggers already created.  
 
 <img src="../img/50_triggers_page.PNG" alt="iot_dashboard_complete" class="img-responsive" >
+
+### Create a new Trigger
 
 You can create two kind of Triggers:
 * **Online Trigger**: Triggers involving sensors and actuators from different Gateway. Since the trigger is managed by the Cloud Server, it can works only if all the Gateways involved are connected to Internet and are able to communicate with the Server.
 * **Offline Triggers**: Triggers involving sensors and actuators of the same Gateway. Since the trigger is saved in the Gateway involved, it will work also if the Gateway isn't connected to Internet.
-
-### Create a new Trigger
 
 <img src="../img/51_triggers_add_new.PNG" alt="iot_dashboard_complete" class="img-responsive" >
 
