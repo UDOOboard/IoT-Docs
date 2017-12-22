@@ -33,7 +33,7 @@ Clicking on the 3-dot menu and then on `Delete Gateway` you proceed to the delet
 
 To confirm the deletion, you must enter the gateway name in the confirmation form
 
-<img src="../img/40_iot_gateway_del2.png" alt="iot_gateway_del2" class="img-responsive" ></br></br>
+<img src="../img/40_iot_gateway_del.png" alt="iot_gateway_del2" class="img-responsive" ></br></br>
 
 ## Devices
 
