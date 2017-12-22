@@ -17,11 +17,11 @@ Check the right section accordingly with the boad you want to register in the UD
 
 First of all you need a microSD with the **UDOObuntu OS** installed, version **2.2.0** and above (a version of UDOObuntu previous of the 2.2.0 could not work with the UDOO IoT Cloud system even if updated/upgraded).  
 
-If you haven't a microSD with UDOObuntu yet, go to one of these pages:
+If you haven't a microSD with UDOObuntu yet, go to one of these pages to know how to download and flash the last version of UDOObuntu (at least **2.2.0**) on a microSD:
 * **UDOO NEO**: [Get Started with UDOO NEO](https://www.udoo.org/get-started-neo/)
 * **UDOO QUAD/DUAL**: [Get Started with UDOO QUAD/DUAL](https://www.udoo.org/get-started-quaddual/)
 
-to know how to download and flash the last version of UDOObuntu (at least **2.2.0**) on a microSD.
+<span class="label label-warning">Heads up!</span> You can consider to install the *minimal* version of UDOObuntu to have a minimal lightweight system. You can find the *minimal* versions in the [Donwload images](https://www.udoo.org/downloads/) section of the UDOO Website.
 
   </div>
   <div role="tabpanel" class="tab-pane" id="x86-example">
