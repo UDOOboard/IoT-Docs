@@ -11,19 +11,25 @@ Here are shown all the **gateways** connected to the account
 
 <img src="../img/29_iot_system_gateway.png" alt="iot_system_gateway" class="img-responsive" ></br>
 
-Clicking on a gateway, you access to a dedicated screen, where you can find all the info about the selected gateway, the number of requests, the event logs and all the connected devices.
+Clicking on one of it, you access to a dedicated screen, where you can find all the info about the selected gateway, the event logs and all the connected devices.
 
 <img src="../img/36_iot_gateway_desc.png" alt="iot_gateway_desc" class="img-responsive" ></br>
 
-Clicking on `Setting Icon` and then on `Edit` you can modify the name and the position of the gateway
+Clicking on the 3-dot menu and then on `Edit` you can modify the name and the gateway and set it an alias.
 
 <img src="../img/37_iot_gateway_edit.png" alt="iot_gateway_edit" class="img-responsive" >
 
-<img src="../img/38_iot_gateway_edit2.png" alt="iot_gateway_edit2" class="img-responsive" ></br>
+From the 3-dot menu you can also manage other features of the Gateway such as:
+* **Restart All Services**: If you detect some connection issues, try to restart the Services (*udoo-iot-cloud-client*) installed.
+* **Set Geolocation**: To set the geolocation of the Gateway and check the pin in the Dashboard map.
+* **Scan for UDOO Blu**: Scan the BLE network of the Gateway to connect a new wireless [UDOO BLU](https://www.udoo.org/udoo-blu/) that will send data of the sensor to this Gateway.
+* **Scan for Open Z-Wave**: If you have connected an USB Z-Wave receiver stick to the Gateway, you can scan the network to automatically identify Open Z-Wave nodes and control it by the UDOO Cloud.  
+Here you can find some info about the [Z-Wave protocol](https://en.wikipedia.org/wiki/Z-Wave), the [Open Z-Wave implementation](http://www.openzwave.com/) and a list of all the [compatible device supported](http://www.openzwave.com/device-database).
+* **Delete Gateway**: Delete the Gateway registration in the UDOO Cloud account.
 
 ### Deleting Gateway
 
-Clicking on `Setting Icon` and then on `Delete Gateway` you proceed to the deletion, and so you have to register again the board with your IoT Account
+Clicking on the 3-dot menu and then on `Delete Gateway` you proceed to the deletion, and so you have to register again the board with your IoT Account
 
 <img src="../img/39_iot_gateway_del.png" alt="iot_gateway_del" class="img-responsive" >
 
