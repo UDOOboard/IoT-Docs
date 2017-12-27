@@ -14,7 +14,7 @@ You can create two kind of Triggers:
 
 <img src="../img/51_triggers_add_new.PNG" alt="iot_dashboard_complete" class="img-responsive" >
 
-To create a new Trigger you need to select the sensor in the `If` sector from the drop down menu.
+To create a new Trigger you need to select the **Sensor** you want to check, in the `If` sector, from the drop down menu.
 
 Select the logic you want to set to the trigger, selecting one of the following, and set the proper value to trigger the trigger:
 * **equal to**
@@ -24,4 +24,6 @@ Select the logic you want to set to the trigger, selecting one of the following,
 * **lower or equal than**
 * **not equal to**
 
-In the `Then` sector you can choose using an actuator or/and let the system send an email notification when the logic of the trigger is true.
+In the `Then` sector you can choose using an **Actuator** or/and let the system **send an email notification** when the logic of the trigger is true.
+
+Also for the Actuators, you can choose the behavior to be produced when the condition set is true or false.
