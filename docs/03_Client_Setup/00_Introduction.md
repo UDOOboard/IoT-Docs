@@ -15,7 +15,7 @@ Check the right section accordingly with the boad you want to register in the UD
  <div class="tab-content">
   <div role="tabpanel" class="tab-pane active" id="arm-example">
 
-First of all you need a microSD with the **UDOObuntu OS** installed, version **2.2.0** and above (a version of UDOObuntu previous of the 2.2.0 could not work with the UDOO IoT Cloud system even if updated/upgraded).  
+First of all you need a microSD with the **UDOObuntu OS** version **2.2.0 and above** (a version of UDOObuntu previous of the 2.2.0 could work *not* properly with the UDOO IoT Cloud system, however you could follow [this guide](!Prepare_UDOObuntu_version_before_2.2.0) to update/upgrade a UDOObuntu version before of the 2.2.0 and try it).  
 
 If you haven't a microSD with UDOObuntu yet, go to one of these pages to know how to download and flash the last version of UDOObuntu (at least **2.2.0**) on a microSD:
 * **UDOO NEO**: [Get Started with UDOO NEO](https://www.udoo.org/get-started-neo/)
