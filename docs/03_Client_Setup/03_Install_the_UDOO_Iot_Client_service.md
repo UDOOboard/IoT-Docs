@@ -57,7 +57,7 @@ Add the UDOO repository and key
 
 ```bash
 curl -s -A "Firefox" https://repository.udoo.org/gpg.key | sudo apt-key add -
-echo "deb https://repository.udoo.org/ udoox86 main" | sudo tee /etc/apt/source.list.d/udoo.list
+echo "deb https://repository.udoo.org/ udoox86 main" | sudo tee /etc/apt/sources.list.d/udoo.list
 ```
 
 Now you can update the apt package list and install the **UDOO IoT Cloud Client** service and the **UDOO Web Conf**
