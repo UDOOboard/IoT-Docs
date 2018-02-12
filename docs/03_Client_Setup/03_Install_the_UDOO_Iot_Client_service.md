@@ -29,7 +29,7 @@ Install the **UDOO IoT Cloud Client** service packages for using **UDOO X86** as
 
 For now, the packages are compatible with **Ubuntu 17.10 (Artful Aardvark)** and **Ubuntu 17.04 (Zesty Zapus)**.
 
-## Install required packages - curl - Nodejs 6.x
+## Install Required Packages - curl - Nodejs 6.x
 
 Install `curl` if you don't have it done already
 
@@ -37,9 +37,14 @@ Install `curl` if you don't have it done already
 sudo apt install -y curl
 ```
 
-<span class="label label-warning">Heads up!</span> You need to have installed **Nodejs 6.x** in your distro to run the UDOO IoT Cloud Client. Nodejs 6.x is preinstalled in **Ubuntu 17.10 (Artful Aardvark)** but you need to install it in the other older distribution as **Ubuntu 17.04**.
+You also need to have installed `Nodejs 6.x` in your distro to run the UDOO IoT Cloud Client.  
+<span class="label label-warning">Heads up!</span> **Nodejs 6.x** is already available in **Ubuntu 17.10 (Artful Aardvark)** repositories, so you can directly install it with:  
+```bash
+sudo apt install -y nodejs
+```
+In order to install `Nodejs 6.x` version in the other older distribution, as **Ubuntu 17.04**, you need to setup the installation.
 
-#### Ubuntu 17.04 (Zesty Zapus)
+#### Install Nodejs 6.x in Ubuntu 17.04 (Zesty Zapus)
 
 To install the **UDOO IoT Cloud Client** in **Ubuntu 17.04** you need to install **Nodejs 6.x** with the following commands or check the [official node documentation](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions) to know how to install it:
 
@@ -50,8 +55,9 @@ sudo apt-get install -y nodejs
 
 ## UDOO IoT Cloud Client service and UDOO Web Conf
 
-The UDOO IoT Cloud Client packages are available into the UDOO binary distributions repository.
-You need to add the UDOO repo as source for `apt` before to install the UDOO IoT Client.
+Once the dependencies are installed you can install the UDOO packages.
+The **UDOO IoT Cloud Client** packages are available into the UDOO binary distributions repository.
+You need to add the UDOO repo as source for `apt` before to install the **UDOO IoT Client**.
 
 Add the UDOO repository and key
 
