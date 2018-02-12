@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Triggers - UDOO IoT Docs</title>
+    <meta name="description" content="UDOO IoT Documentation" />
+    <meta name="author" content="UDOO Team">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../themes/daux/img/favicon-navy.png" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='../themes/daux/css/theme-navy.min.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/udoo.css' rel='stylesheet' type='text/css'>
+    
+    <!-- jQuery -->
+    <script src="../themes/daux/js/jquery-1.11.3.min.js"></script>
+    <script src="../themes/daux/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="">
+    
+<header class="Navbar hidden-print">
+    <img class="pull-left udoologo" src="https://www.udoo.org/docs/img/logos/docs.png"> 
+<a class="Navbar__brand" href="../index.html">
+UDOO IoT Documentation</a>
+
+</header>
+<div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <div class="Collapsible__container">
+            <button type="button" class="Button Collapsible__trigger">
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+            </button>
+        </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Introduction</a><ul class='Nav'><li class='Nav__item '><a href="../Introduction/Introduction.html">Introduction</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Server</a><ul class='Nav'><li class='Nav__item '><a href="../Server/Account_Registration.html">Account Registration</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Client Setup</a><ul class='Nav'><li class='Nav__item '><a href="../Client_Setup/Introduction.html">Introduction</a></li><li class='Nav__item '><a href="../Client_Setup/Prepare_UDOObuntu_version_before_2.2.0.html">Prepare UDOObuntu version before 2.2.0</a></li><li class='Nav__item '><a href="../Client_Setup/Install_the_UDOO_Iot_Client_service.html">Install the UDOO Iot Client service</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Client Registration</a><ul class='Nav'><li class='Nav__item '><a href="../Client_Registration/Register_the_Client_into_the_UDOO_IoT_Cloud_Server.html">Register the Client into the UDOO IoT Cloud Server</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>UDOO IoT Interface Description</a><ul class='Nav'><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Dashboard.html">Dashboard</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Widgets_and_Containers.html">Widgets and Containers</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Gateways.html">Gateways</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Network.html">Network</a></li><li class='Nav__item Nav__item--active'><a href="../UDOO_IoT_Interface_Description/Triggers.html">Triggers</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Virtual Sensors and Actuators</a><ul class='Nav'><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Set_a_Virtual_Sensor.html">Set a Virtual Sensor</a></li><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Virtual_Sensor_Examples.html">Virtual Sensor Examples</a></li></ul></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://www.udoo.org" target="_blank">Home</a>
+                        <br />
+                                            <a href="https://www.udoo.org/downloads" target="_blank">Downloads</a>
+                        <br />
+                                            <a href="https://www.udoo.org/tutorial" target="_blank">Tutorials</a>
+                        <br />
+                                            <a href="https://www.udoo.org/forum" target="_blank">Forum</a>
+                        <br />
+                                    
+                
+                            </div>
+        </div>
+    </aside>
+    <div class="Columns__right ">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1>Triggers</h1>
+            </div>
+
+
+    <div class="s-content">
+        <p>From this page you can add logical <strong>Triggers</strong> involving sensors and actuators registered in the Cloud.</p>
+<p>You can use the IFTTT-logic (<em>If This Then That</em>) conditions to create the triggers you need in the system. This is a very useful tool to create logic actions into your Cloud</p>
+<p>In the top of the page you can find the Triggers already created.</p>
+<img src="../img/50_triggers_page.PNG" alt="iot_dashboard_complete" class="img-responsive" >
+<h3 id="page_Create_a_new_Trigger">Create a new Trigger</h3>
+<p>You can create two kind of Triggers:</p>
+<ul>
+<li>
+<strong>Online Trigger</strong>: Triggers involving sensors and actuators from different Gateway. Since the trigger is managed by the Cloud Server, it can works only if all the Gateways involved are connected to Internet and are able to communicate with the Server.</li>
+<li>
+<strong>Offline Triggers</strong>: Triggers involving sensors and actuators of the same Gateway. Since the trigger is saved in the Gateway involved, it will work also if the Gateway isn't connected to Internet.</li>
+</ul>
+<img src="../img/51_triggers_add_new.PNG" alt="iot_dashboard_complete" class="img-responsive" >
+<p>To create a new Trigger you need to select the <strong>Sensor</strong> you want to check, in the <code>If</code> sector, from the drop down menu.</p>
+<p>Select the logic you want to set to the trigger, selecting one of the following, and set the proper value to trigger the trigger:</p>
+<ul>
+<li>
+<strong>equal to</strong>
+</li>
+<li>
+<strong>greater than</strong>
+</li>
+<li>
+<strong>greater or equal than</strong>
+</li>
+<li>
+<strong>lower than</strong>
+</li>
+<li>
+<strong>lower or equal than</strong>
+</li>
+<li>
+<strong>not equal to</strong>
+</li>
+</ul>
+<p>In the <code>Then</code> sector you can choose using an <strong>Actuator</strong> or/and let the system <strong>send an email notification</strong> when the logic of the trigger is true.</p>
+<p>Also for the Actuators, you can choose the behavior to be produced when the condition set is true or false.</p>
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="../UDOO_IoT_Interface_Description/Network.html">Previous</a></li>            <li class=Pager--next><a href="../Virtual_Sensors_and_Actuators.md/Overview.html">Next</a></li>        </ul>
+    </nav>
+    
+<span style="float: left; font-size: 10px; color: gray;">
+This page was last updated on Monday, February 12, 2018 at 4:55 PM.
+</span>
+
+</article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- hightlight.js -->
+    <script src="../themes/daux/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    
+    <script src="../themes/daux/js/daux.js"></script>
+
+    
+</body>
+</html>

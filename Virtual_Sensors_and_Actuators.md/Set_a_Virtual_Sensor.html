@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Set a Virtual Sensor - UDOO IoT Docs</title>
+    <meta name="description" content="UDOO IoT Documentation" />
+    <meta name="author" content="UDOO Team">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../themes/daux/img/favicon-navy.png" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='../themes/daux/css/theme-navy.min.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/udoo.css' rel='stylesheet' type='text/css'>
+    
+    <!-- jQuery -->
+    <script src="../themes/daux/js/jquery-1.11.3.min.js"></script>
+    <script src="../themes/daux/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="">
+    
+<header class="Navbar hidden-print">
+    <img class="pull-left udoologo" src="https://www.udoo.org/docs/img/logos/docs.png"> 
+<a class="Navbar__brand" href="../index.html">
+UDOO IoT Documentation</a>
+
+</header>
+<div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <div class="Collapsible__container">
+            <button type="button" class="Button Collapsible__trigger">
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+            </button>
+        </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Introduction</a><ul class='Nav'><li class='Nav__item '><a href="../Introduction/Introduction.html">Introduction</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Server</a><ul class='Nav'><li class='Nav__item '><a href="../Server/Account_Registration.html">Account Registration</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Client Setup</a><ul class='Nav'><li class='Nav__item '><a href="../Client_Setup/Introduction.html">Introduction</a></li><li class='Nav__item '><a href="../Client_Setup/Prepare_UDOObuntu_version_before_2.2.0.html">Prepare UDOObuntu version before 2.2.0</a></li><li class='Nav__item '><a href="../Client_Setup/Install_the_UDOO_Iot_Client_service.html">Install the UDOO Iot Client service</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Client Registration</a><ul class='Nav'><li class='Nav__item '><a href="../Client_Registration/Register_the_Client_into_the_UDOO_IoT_Cloud_Server.html">Register the Client into the UDOO IoT Cloud Server</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>UDOO IoT Interface Description</a><ul class='Nav'><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Dashboard.html">Dashboard</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Widgets_and_Containers.html">Widgets and Containers</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Gateways.html">Gateways</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Network.html">Network</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Triggers.html">Triggers</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Virtual Sensors and Actuators</a><ul class='Nav'><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Overview.html">Overview</a></li><li class='Nav__item Nav__item--active'><a href="../Virtual_Sensors_and_Actuators.md/Set_a_Virtual_Sensor.html">Set a Virtual Sensor</a></li><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Virtual_Sensor_Examples.html">Virtual Sensor Examples</a></li></ul></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://www.udoo.org" target="_blank">Home</a>
+                        <br />
+                                            <a href="https://www.udoo.org/downloads" target="_blank">Downloads</a>
+                        <br />
+                                            <a href="https://www.udoo.org/tutorial" target="_blank">Tutorials</a>
+                        <br />
+                                            <a href="https://www.udoo.org/forum" target="_blank">Forum</a>
+                        <br />
+                                    
+                
+                            </div>
+        </div>
+    </aside>
+    <div class="Columns__right ">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1>Set a Virtual Sensor</h1>
+            </div>
+
+
+    <div class="s-content">
+        <p>Following the next steps to create and work with a Virtual Sensor.</p>
+<h3 id="page_Setup_the_Virtual_Sensor_on_the_UDOO_IoT_Cloud_Server">Setup the Virtual Sensor on the UDOO IoT Cloud Server</h3>
+<p>Select the gateway and choose the right UDOO device.</p>
+<img src="../img/vsensor_device.PNG" alt="vsensor_device" class="img-responsive" >
+<p>Press on the <strong>New Sensor</strong> drop down menu (not the button) and choose <strong>Virtual</strong>.</p>
+<img src="../img/vsensor_new_sensor.PNG" alt="vsensor_new_sensor" class="img-responsive" >
+<p>Enter the <code>__NAME_OF_THE_SENSOR__</code> as the folder created on the client.<br />
+Enter the <strong>display name</strong> and choose an <strong>icon</strong> to be displayed in the widget, whatever.<br />
+Select an <strong>update time</strong>, because the sensor value will be updated only when the value change.<br />
+Select <strong>online notification</strong>.<br />
+<strong>Value types</strong> provides a description of the sensor and the measure unit if desired.<br />
+Press the <strong>Save</strong> button to save the configuration.</p>
+<img src="../img/vsensor_new_sensor_popup.PNG" alt="vsensor_new_sensor_popup" class="img-responsive" >
+<p>The Virtual Sensor is shown now in a widget and come DISABLED by default.<br />
+Enable the Virtual Sensor by press the <strong>Enable</strong> button in the 3-dot menu.</p>
+<img src="../img/vsensor_widget_disabled.PNG" alt="vsensor_widget_disabled" class="img-responsive" >
+</br>
+<img src="../img/vsensor_widget_enabled.PNG" alt="vsensor_widget_enabled" class="img-responsive" >
+<p>Restart the UDOO IoT Client Service using the button <strong>Restart Service</strong> in the 3-dot menu of the device in top of the page.</p>
+<img src="../img/vsensor_restart_service.PNG" alt="vsensor_restart_service" class="img-responsive" >
+<p>Now the Virtual Service is up and running listening to the changes in the <code>/sensors/virtual/__NAME_OF_THE_SENSOR__/data</code> file.</p>
+<h3 id="page_Interact_with_the_file_in_the_UDOO_IoT_Client">Interact with the file in the UDOO IoT Client</h3>
+<p>Once the Virtual Sensor is set up, a folder and a file are automatically created in <code>/sensors/virtual/</code> with the name of the virtual sensor created</p>
+<pre><code class="language-bash">/sensors/virtual/__NAME_OF_THE_SENSOR__/
+/sensors/virtual/__NAME_OF_THE_SENSOR__/data
+</code></pre>
+<p>In this example we'll call the the Virtual Sensor <code>vstest</code> so these file created are:</p>
+<pre><code class="language-bash">/sensors/virtual/vstest/
+/sensors/virtual/vstest/data
+</code></pre>
+<p>The <code>data</code> file should be already accessible both by the application that will changes values and by the UDOO IoT Client. If the file is not accessible change the permissions in this way:</p>
+<pre><code class="language-bash">chmod 666 /sensors/virtual/vstest/data
+</code></pre>
+<h3 id="page_Input_File">Input File</h3>
+<p>The format of the <code>data</code> file must be:</p>
+<pre><code>__VALUE__
+</code></pre>
+<p>Every time the <code>__VALUE__</code> changes the UDOO IoT Cloud Client is notified and upload the data in the UDOO Cloud Server.</p>
+<p>Now you can use an application or script wrote in any language (c, java, python...) to open the <code>data</code> file and change the value wrote inside to have the same data uploaded to the UDOO IoT Cloud Server.<br />
+In the next page you can find some example of how to write a software that use the Virtual Sensor.</p>
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="../Virtual_Sensors_and_Actuators.md/Overview.html">Previous</a></li>            <li class=Pager--next><a href="../Virtual_Sensors_and_Actuators.md/Virtual_Sensor_Examples.html">Next</a></li>        </ul>
+    </nav>
+    
+<span style="float: left; font-size: 10px; color: gray;">
+This page was last updated on Monday, February 12, 2018 at 4:55 PM.
+</span>
+
+</article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- hightlight.js -->
+    <script src="../themes/daux/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    
+    <script src="../themes/daux/js/daux.js"></script>
+
+    
+</body>
+</html>

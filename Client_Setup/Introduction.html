@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Introduction - UDOO IoT Docs</title>
+    <meta name="description" content="UDOO IoT Documentation" />
+    <meta name="author" content="UDOO Team">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../themes/daux/img/favicon-navy.png" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='../themes/daux/css/theme-navy.min.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/udoo.css' rel='stylesheet' type='text/css'>
+    
+    <!-- jQuery -->
+    <script src="../themes/daux/js/jquery-1.11.3.min.js"></script>
+    <script src="../themes/daux/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="">
+    
+<header class="Navbar hidden-print">
+    <img class="pull-left udoologo" src="https://www.udoo.org/docs/img/logos/docs.png"> 
+<a class="Navbar__brand" href="../index.html">
+UDOO IoT Documentation</a>
+
+</header>
+<div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <div class="Collapsible__container">
+            <button type="button" class="Button Collapsible__trigger">
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+            </button>
+        </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Introduction</a><ul class='Nav'><li class='Nav__item '><a href="../Introduction/Introduction.html">Introduction</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Server</a><ul class='Nav'><li class='Nav__item '><a href="../Server/Account_Registration.html">Account Registration</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Client Setup</a><ul class='Nav'><li class='Nav__item Nav__item--active'><a href="../Client_Setup/Introduction.html">Introduction</a></li><li class='Nav__item '><a href="../Client_Setup/Prepare_UDOObuntu_version_before_2.2.0.html">Prepare UDOObuntu version before 2.2.0</a></li><li class='Nav__item '><a href="../Client_Setup/Install_the_UDOO_Iot_Client_service.html">Install the UDOO Iot Client service</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Client Registration</a><ul class='Nav'><li class='Nav__item '><a href="../Client_Registration/Register_the_Client_into_the_UDOO_IoT_Cloud_Server.html">Register the Client into the UDOO IoT Cloud Server</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>UDOO IoT Interface Description</a><ul class='Nav'><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Dashboard.html">Dashboard</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Widgets_and_Containers.html">Widgets and Containers</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Gateways.html">Gateways</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Network.html">Network</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Triggers.html">Triggers</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Virtual Sensors and Actuators</a><ul class='Nav'><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Set_a_Virtual_Sensor.html">Set a Virtual Sensor</a></li><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Virtual_Sensor_Examples.html">Virtual Sensor Examples</a></li></ul></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://www.udoo.org" target="_blank">Home</a>
+                        <br />
+                                            <a href="https://www.udoo.org/downloads" target="_blank">Downloads</a>
+                        <br />
+                                            <a href="https://www.udoo.org/tutorial" target="_blank">Tutorials</a>
+                        <br />
+                                            <a href="https://www.udoo.org/forum" target="_blank">Forum</a>
+                        <br />
+                                    
+                
+                            </div>
+        </div>
+    </aside>
+    <div class="Columns__right ">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1>Introduction</h1>
+            </div>
+
+
+    <div class="s-content">
+        <p>To make the UDOO IoT Client service work on your UDOO board you need the <code>udoo-iot-cloud-client</code> package installed on your system.<br />
+The package is available for both ARM or x86 architecture so it can run on UDOO ARM-based boards and UDOO x86-based boards.
+This package provides the service and all what you need to make your UDOO board communicate with the UDOO IoT Cloud Server.</p>
+<h2 id="page_Prepare_the_IoT_Client">Prepare the IoT Client</h2>
+<p>Check the right section accordingly with the boad you want to register in the UDOO IoT Cloud.</p>
+<div>
+ <ul id="intro-examples" class="nav nav-tabs" role="tablist">
+  <li role="presentation" class="active"><a href="#arm-example" aria-controls="arm" role="tab" data-toggle="tab"><b>UDOO ARM/based board (UDOO NEO & UDOO QUAD/DUAL)</b></a></li>
+  <li role="presentation"><a href="#x86-example" aria-controls="x86" role="tab" data-toggle="tab"><b>UDOO X86 board</b></a></li>
+ </ul>
+ <div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="arm-example">
+<p>First of all you need a microSD with the <strong>UDOObuntu OS</strong> version <strong>2.2.0 and above</strong> (a version of UDOObuntu previous of the 2.2.0 could work <em>not</em> properly with the UDOO IoT Cloud system, however you could follow <a href="Prepare_UDOObuntu_version_before_2.2.0.html">this guide</a> to update/upgrade a UDOObuntu version before of the 2.2.0 and try it).</p>
+<p>If you haven't a microSD with UDOObuntu yet, go to one of these pages to know how to download and flash the last version of UDOObuntu (at least <strong>2.2.0</strong>) on a microSD:</p>
+<ul>
+<li>
+<strong>UDOO NEO</strong>: <a href="https://www.udoo.org/get-started-neo/" class="external">Get Started with UDOO NEO</a>
+</li>
+<li>
+<strong>UDOO QUAD/DUAL</strong>: <a href="https://www.udoo.org/get-started-quaddual/" class="external">Get Started with UDOO QUAD/DUAL</a>
+</li>
+</ul>
+<p><span class="label label-warning">Heads up!</span> You can consider to install the <em>minimal</em> version of UDOObuntu to have a minimal lightweight system. You can find the <em>minimal</em> versions in the <a href="https://www.udoo.org/downloads/" class="external">Donwload images</a> section of the UDOO Website.</p>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="x86-example">
+<p>You need to run a Linux distro to install the UDOO IoT Client.<br />
+For now, the packages are compatible with <strong>Ubuntu 17.10 (Artful Aardvark)</strong> and <strong>Ubuntu 17.04 (Zesty Zapus)</strong>.
+If you haven't an OS installed on one of the drive supported by the UDOO X86 go to the <a href="https://www.udoo.org/get-started-x86/" class="external">Get Started with UDOO X86</a> page and install an Ubuntu distro supported.</p>
+  </div>
+ </div>
+<script>
+$('#intro-examples a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+</script>
+<h2 id="page_Install_the_UDOO_IoT_Client_service">Install the UDOO IoT Client service</h2>
+<p>Once you have a proper OS in your UDOO board you need to install the UDOO IoT Client service. Install it is service is very easy.<br />
+Go to the <a href="Install_the_UDOO_Iot_Client_service.html">Install the UDOO Iot Client service</a> section to see how to do that in your UDOO NEO, QUAD/DUAL or X86 board.</p>
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="../Server/Account_Registration.html">Previous</a></li>            <li class=Pager--next><a href="../Client_Setup/Prepare_UDOObuntu_version_before_2.2.0.html">Next</a></li>        </ul>
+    </nav>
+    
+<span style="float: left; font-size: 10px; color: gray;">
+This page was last updated on Monday, February 12, 2018 at 4:55 PM.
+</span>
+
+</article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- hightlight.js -->
+    <script src="../themes/daux/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    
+    <script src="../themes/daux/js/daux.js"></script>
+
+    
+</body>
+</html>

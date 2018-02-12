@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Widgets and Containers - UDOO IoT Docs</title>
+    <meta name="description" content="UDOO IoT Documentation" />
+    <meta name="author" content="UDOO Team">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../themes/daux/img/favicon-navy.png" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='../themes/daux/css/theme-navy.min.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/udoo.css' rel='stylesheet' type='text/css'>
+    
+    <!-- jQuery -->
+    <script src="../themes/daux/js/jquery-1.11.3.min.js"></script>
+    <script src="../themes/daux/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="">
+    
+<header class="Navbar hidden-print">
+    <img class="pull-left udoologo" src="https://www.udoo.org/docs/img/logos/docs.png"> 
+<a class="Navbar__brand" href="../index.html">
+UDOO IoT Documentation</a>
+
+</header>
+<div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <div class="Collapsible__container">
+            <button type="button" class="Button Collapsible__trigger">
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+            </button>
+        </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Introduction</a><ul class='Nav'><li class='Nav__item '><a href="../Introduction/Introduction.html">Introduction</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Server</a><ul class='Nav'><li class='Nav__item '><a href="../Server/Account_Registration.html">Account Registration</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Client Setup</a><ul class='Nav'><li class='Nav__item '><a href="../Client_Setup/Introduction.html">Introduction</a></li><li class='Nav__item '><a href="../Client_Setup/Prepare_UDOObuntu_version_before_2.2.0.html">Prepare UDOObuntu version before 2.2.0</a></li><li class='Nav__item '><a href="../Client_Setup/Install_the_UDOO_Iot_Client_service.html">Install the UDOO Iot Client service</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Client Registration</a><ul class='Nav'><li class='Nav__item '><a href="../Client_Registration/Register_the_Client_into_the_UDOO_IoT_Cloud_Server.html">Register the Client into the UDOO IoT Cloud Server</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>UDOO IoT Interface Description</a><ul class='Nav'><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Dashboard.html">Dashboard</a></li><li class='Nav__item Nav__item--active'><a href="../UDOO_IoT_Interface_Description/Widgets_and_Containers.html">Widgets and Containers</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Gateways.html">Gateways</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Network.html">Network</a></li><li class='Nav__item '><a href="../UDOO_IoT_Interface_Description/Triggers.html">Triggers</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Virtual Sensors and Actuators</a><ul class='Nav'><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Set_a_Virtual_Sensor.html">Set a Virtual Sensor</a></li><li class='Nav__item '><a href="../Virtual_Sensors_and_Actuators.md/Virtual_Sensor_Examples.html">Virtual Sensor Examples</a></li></ul></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://www.udoo.org" target="_blank">Home</a>
+                        <br />
+                                            <a href="https://www.udoo.org/downloads" target="_blank">Downloads</a>
+                        <br />
+                                            <a href="https://www.udoo.org/tutorial" target="_blank">Tutorials</a>
+                        <br />
+                                            <a href="https://www.udoo.org/forum" target="_blank">Forum</a>
+                        <br />
+                                    
+                
+                            </div>
+        </div>
+    </aside>
+    <div class="Columns__right ">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1>Widgets and Containers</h1>
+            </div>
+
+
+    <div class="s-content">
+        <p>A <strong>Widget</strong> is a customizable elements you can use to set your dashboard. You can choose a sensor connected to the network to show data inside the Widget.</p>
+<p>A <strong>Container</strong> is basically an element that can contains more widgets to have a clear organization of your widgets.</p>
+<p>By clicking on the setup icon in the dashboard, you can add widgets and containers.</p>
+<img src="../img/15_iot_add_wid_con.png" alt="iot_add_wid_con" class="img-responsive" >
+<h2 id="page_Adding_Widgets">Adding Widgets</h2>
+<p>After selecting <code>Add New Widget</code>, a popup will appear. Here you need to select:</p>
+<ul>
+<li>the <strong>gateway</strong> that contains the sensor whose data you want to view in the widget.</li>
+<li>the <strong>device</strong> that contains the sensor whose data you want to view in the widget.</li>
+<li>the <strong>sensor</strong> whose data you want to view in the widget.</li>
+</ul>
+<img src="../img/16_iot_add_wid.png" alt="iot_add_wid" class="img-responsive" >
+<p>So insert the other parameters:</p>
+<ul>
+<li>the <strong>display name</strong> you want to assign to the sensor.</li>
+<li>the <strong>icon</strong> you want to assign to the sensor.</li>
+<li>the <strong>type of the widget</strong>. It could be a <em>small</em> or <em>medium</em>.</li>
+<li>the <strong>icon and widget colors</strong> combination to give the widget a pleasant look to see.</li>
+</ul>
+<img src="../img/17_iot_add_wid_2.png" alt="iot_add_wid_2" class="img-responsive" >
+<h3 id="page_Widget_Types">Widget Types</h3>
+<p>The Widget can be of two types:</p>
+<ul>
+<li>Small</li>
+<li>Medium</li>
+</ul>
+<img src="../img/18_iot_widget_types.png" alt="iot_widget_types" class="img-responsive" >
+<p>There are some Bricks that return the values of more than one sensor (e.g. The Humidity Sensor returns data from Humidity sensor and Temperature sensor).
+For the Bricks that have more sensors, you can select two kind of visualizations:</p>
+<ul>
+<li>United</li>
+<li>Divided</li>
+</ul>
+<p>If you select <strong>United</strong>, a widget will be created that has all the values of the Brick’s sensors, as show in the figures below</p>
+<img src="../img/20_iot_widget_united_add.png" alt="iot_widget_united_add" class="img-responsive" >
+</br>
+<img src="../img/21_iot_widget_united.png" alt="iot_widget_united" class="img-responsive" >
+<p>If you choose <strong>Divided</strong>, you can split the sensors of a Brick into different widgets.
+In the figure below, is picked just the temperature sensor of the Barometer Brick.</p>
+<img src="../img/22_widget_divided_add_one.png" alt="widget_divided_add_one" class="img-responsive" >
+<p>In figure below, are picked both</p>
+<img src="../img/23_widget_divided_add_two.png" alt="widget_divided_add_two" class="img-responsive" >
+<h2 id="page_Adding_Containers">Adding Containers</h2>
+<p>For adding a container, push on the setup icon in the dashboard, and then select <code>Add New Container</code>, a popup will appear. Here you need to select:</p>
+<ul>
+<li>a name for the container</li>
+<li>the icon you prefer</li>
+</ul>
+<img src="../img/24_container_add.png" alt="container_add" class="img-responsive" >
+<p>Now you have a new container on your dashboard.</p>
+<img src="../img/25_container_empty.png" alt="container_empty" class="img-responsive" >
+<p>You can drag the small widgets into the container for having an optimal organization of the sensors.</p>
+<img src="../img/26_container_full.png" alt="container_full" class="img-responsive" >
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="../UDOO_IoT_Interface_Description/Dashboard.html">Previous</a></li>            <li class=Pager--next><a href="../UDOO_IoT_Interface_Description/Gateways.html">Next</a></li>        </ul>
+    </nav>
+    
+<span style="float: left; font-size: 10px; color: gray;">
+This page was last updated on Monday, February 12, 2018 at 4:55 PM.
+</span>
+
+</article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- hightlight.js -->
+    <script src="../themes/daux/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    
+    <script src="../themes/daux/js/daux.js"></script>
+
+    
+</body>
+</html>
